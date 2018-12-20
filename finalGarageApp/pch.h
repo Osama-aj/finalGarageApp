@@ -9,6 +9,19 @@
 #ifndef PCH_H
 #define PCH_H
 
+#include <iostream>
+#include <string>
+//#include <windows.h>
+#include <stdlib.h> //includes sleep
+#include <new>
+#include <cstdlib>
+#include <array>
+#include <crtdbg.h> 
+#include<chrono>
+#include<vector>
+using namespace std;
+
+
 // TODO: add headers that you want to pre-compile here
 
 #endif //PCH_H
