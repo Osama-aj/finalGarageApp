@@ -45,7 +45,7 @@ public:
 	bool findByRegNum(string regnumToFind);
 	void RemoveVehicle(string regNumToRemove);
 	bool isFull();
-	void set_garageName(string newName);
-	string get_garageName();
+	inline void set_garageName(string newName) { garageName = newName; };
+	inline string get_garageName()const { return garageName; };
 };
 

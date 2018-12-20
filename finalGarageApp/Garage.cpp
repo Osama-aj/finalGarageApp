@@ -580,12 +580,4 @@ void Garage::calcMoney(int timeBySecond, int kronorPerHour)
 		: (((minute <= 30) ? printf("you need to pay for %i hours and a half ... and it is %i:-\n\n", tempHour, ((tempHour)* kronorPerHour) + (kronorPerHour / 2))
 			: printf("you need to pay for %i hours ... and it is %i:-\n\n", tempHour + 1, (tempHour + 1) * kronorPerHour)));
 }
-void Garage::set_garageName(string newName)
-{
-	garageName = newName;
-}
 
-string Garage::get_garageName()
-{
-	return garageName;
-}
