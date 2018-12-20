@@ -70,13 +70,13 @@ void listor::managing()
 			creategarage();
 			break;
 		case 2:
-			for (unsigned int i = 0; i < garageV.size(); i++)
+			for (size_t i = 0; i < garageV.size(); i++)
 			{
 				cout << i + 1 << "- " << garageV[i].get_garageName() << endl;
 			}
 			break;
 		case 3:
-			for (unsigned int i = 0; i < garageV.size(); i++)
+			for (size_t i = 0; i < garageV.size(); i++)
 			{
 				cout << i + 1 << "- " << garageV[i].get_garageName() << endl;
 			}
@@ -90,7 +90,7 @@ void listor::managing()
 			userInputInt = E_MainList;
 			break;
 		case 4:
-			for (unsigned int i = 0; i < garageV.size(); i++)
+			for (size_t i = 0; i < garageV.size(); i++)
 			{
 				cout << i + 1 << "- " << garageV[i].get_garageName() << endl;
 			}
@@ -144,7 +144,7 @@ void listor::init()
 		system("cls");
 	}
 
-	for (unsigned int i = 0; i < garageV.size(); i++)
+	for (size_t i = 0; i < garageV.size(); i++)
 	{
 		garageV[i].cleanAGarage();
 	}

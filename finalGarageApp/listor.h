@@ -18,7 +18,8 @@ private:
 	vector<Garage> garageV;
 	Vehicle * VehicleP;
 	string userInputString;
-	int userInputInt, sizeOfGarage, chooseGarage, tempInt;
+	int userInputInt, sizeOfGarage, tempInt;
+	size_t chooseGarage;
 	string MyTempString;
 	bool accepted;
 	bool whileToGo = true;    // to make the program running or not    
